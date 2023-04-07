@@ -3,7 +3,7 @@ import './style.css'
 
 function WindowManager(){
 
-  let isLauncherOpen = false;
+  // let isLauncherOpen = false;
   let totalWindows = 0;
 
   let taskbar = document.createElement("div") as HTMLDivElement
@@ -127,6 +127,5 @@ function WindowManager(){
     openWindow
   }
 }
-let windowManager = WindowManager();
+WindowManager();
 
-// setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
