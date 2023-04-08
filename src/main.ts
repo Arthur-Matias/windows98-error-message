@@ -123,9 +123,6 @@ function WindowManager(){
       element: newWindow,
     }
   }
-  return{
-    openWindow
-  }
 }
 WindowManager();
 
