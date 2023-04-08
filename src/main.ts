@@ -10,13 +10,13 @@ function WindowManager(){
   taskbar.classList.add("taskbar", "shadow")
   taskbar.innerHTML = `
   <div class="taskbar shadow">
-    <div class="start btn shadow"><i><img src="/windows_icon.png"></i>start</div>
+    <div class="start btn shadow"><i><img src="/windows98-error-message/windows_icon.png"></i>start</div>
     <div class="taskbar-shortcuts">
       <div class="separator"></div>
-      <i><img src="/msie.png"></i>
-      <i><img src="/msn.png"></i>
-      <i><img src="/desktop_old.png"></i>
-      <i><img src="/display_properties.png"></i>
+      <i><img src="/windows98-error-message/msie.png"></i>
+      <i><img src="/windows98-error-message/msn.png"></i>
+      <i><img src="/windows98-error-message/desktop_old.png"></i>
+      <i><img src="/windows98-error-message/display_properties.png"></i>
     </div>
     <div class="open-apps"></div>
     <div class="clock">
@@ -108,7 +108,7 @@ function WindowManager(){
     </header>
     <section>
       <div class="message">
-        <i><img src="/msg_error.png"></i>
+        <i><img src="/windows98-error-message/msg_error.png"></i>
         <p>${ErrorMessages[index]}</p>
       </div>
       <div class="options">
