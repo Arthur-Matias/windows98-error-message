@@ -34,4 +34,4 @@ const h=["Warning: entering a wormhole. Brace yourself for a bumpy ride!","We've
         <div class="btn close shadow">cancel</div>
       </div>
     </section>
-    `,{element:t}}return{openWindow:d}}w();
+    `,{element:t}}}w();
