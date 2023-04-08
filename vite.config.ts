@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "/arthur-matias.github.io/",
+    base: "/windows98-error-message/",
     build: {
         modulePreload: {
             polyfill: false
